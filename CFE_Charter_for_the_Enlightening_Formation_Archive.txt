@@ -1,0 +1,89 @@
+Charter for the Enlightening — Formation Archive (Context Document)
+
+This document provides context for the structure, development, and presentation of the Formation Archive.
+
+It is not intended as a starting point for new readers.
+For navigation, see README.txt.
+
+This repository contains the foundational materials for A Charter for the Enlightening. 
+The Charter is not a fixed system or doctrine.
+It is a set of principles and an ongoing record of conversations exploring how individuals and societies can become more self-aware, less harmful, and more capable over time.
+ 
+Where to Start
+If you are new:
+•	Read the Charter (Beginner’s Guide) for an accessible entry point 
+•	Then read the Charter for the Enlightening (Canonical Text) 
+•	Use the FAQ and Guide if something feels unclear or contradictory 
+•	Explore the Conversation Summaries for navigation 
+•	Refer to the Transcripts for full context and primary source material 
+ 
+Repository Structure
+•	Charter Documents
+The core principles and introductory materials 
+•	Conversation Transcripts
+The original dialogues in full
+→ Primary record of development 
+•	Conversation Summaries
+Structured overviews of each dialogue
+→ Navigational layer only 
+•	FAQ
+Frequently raised questions and tensions identified during stress-testing 
+•	Guide (Clarifications & Failure Modes)
+Common misreadings, limitations, and known points of failure
+→ Read this if something feels unclear or contradictory 
+ 
+How to Read This Archive
+There is no required order.
+The documents are designed to be:
+•	questioned 
+•	cross-referenced 
+•	read non-linearly 
+The summaries point toward the transcripts.
+The transcripts remain the authoritative record.
+ 
+Authorship & Process
+This work was developed through iterative dialogue between a human author and AI systems.
+•	The human author defined direction, intent, and final decisions 
+•	AI systems were used for stress-testing, critique, and clarification 
+The archive preserves this process openly.
+ 
+License & Use
+The canonical Charter text is released under:
+CC BY-ND 4.0 (Attribution–NoDerivs)
+•	The text may be shared freely with attribution 
+•	The canonical version remains unaltered as a stable reference 
+Forking, reinterpretation, and derivative works are encouraged outside the canonical text.
+ 
+Verification
+All primary documents are cryptographically signed using OpenPGP.
+•	.sig files accompany each document 
+•	A public key is provided in this repository 
+Verification confirms that documents have not been altered since signing.
+ 
+Notes on Structure
+•	Some conversations were segmented during processing due to length 
+•	Numbering reflects archival organisation, not original session count 
+•	Titles have been standardised for consistency 
+•	Minor omissions are annotated where applicable 
+These changes do not alter the meaning or substance of the material.
+ 
+Reference Notes
+Some references originate from earlier or external discussions that are not included in this archive.
+For example, certain conversational callbacks (such as informal references) are retained only as contextual markers and are not essential to understanding the Charter itself.
+ 
+Translation & Accessibility
+The Charter is intended to be accessible to a wide audience.
+We welcome volunteers to contribute high-quality translations.
+•	All official translations will be hosted here 
+•	All versions remain under the same license as the original 
+•	Any commercial sale of translations is not authorised 
+If you encounter a version being sold, it is not an official release.
+ 
+Final Note
+This archive is not presented as complete or authoritative.
+It is a record of an ongoing process.
+Use it, question it, adapt it, or ignore it.
+The work continues either way.
+
+
+© 2026 ThatGuyFromTheArchive CC BY-ND 4.0

@@ -1,0 +1,127 @@
+
+# CFE — Verification Guide (OpenPGP Signatures)
+
+## Purpose
+
+This document explains how to verify that files in the *Charter for the Enlightening — Formation Archive* have not been altered since publication.
+
+All primary documents in this repository are cryptographically signed using OpenPGP.
+Verification is optional, but it allows any reader to independently confirm the integrity and authenticity of the archive.
+
+---
+
+## What Is a Digital Signature?
+
+A digital signature is a cryptographic method of confirming two things:
+
+1. **Integrity** — The document has not been changed since it was signed
+2. **Authenticity** — The document was signed by the holder of a specific private key
+
+If verification succeeds, you can trust that the file you are reading is exactly the same as the one originally released.
+
+---
+
+## What You Need
+
+To verify a document, you will need:
+
+* The original document file (e.g. `.txt`)
+* The corresponding signature file (e.g. `.sig`)
+* The public key file (`CFE_KEY_Public.asc`)
+* An OpenPGP tool (such as Kleopatra / Gpg4win, or GPG)
+
+---
+
+## Public Key Fingerprint
+
+Before verifying, confirm that you are using the correct public key:
+
+**Fingerprint:**
+42EC 4E2B 2347 8A71 4C98 4680 FBEA 6A65 658A 56EF
+
+This fingerprint uniquely identifies the signing key.
+
+---
+
+## Verification (Kleopatra — Recommended)
+
+If you are using Kleopatra:
+
+1. Open Kleopatra
+
+2. Import the public key:
+
+   * File → Import
+   * Select `CFE_KEY_Public.asc`
+
+3. Verify a document:
+
+   * Right-click the `.sig` file
+   * Select **"Decrypt/Verify"**
+   * Ensure the corresponding `.txt` file is in the same folder
+
+4. View the result:
+
+   * A valid signature will show as **“Valid”** or **“Good signature”**
+
+---
+
+## Verification (Command Line — Optional)
+
+If you are using GPG:
+
+Import the key:
+
+```
+gpg --import CFE_KEY_Public.asc
+```
+
+Verify a file:
+
+```
+gpg --verify filename.sig filename.txt
+```
+
+---
+
+## What a Successful Verification Means
+
+If verification succeeds:
+
+* The document has **not been altered**
+* The document was signed by the **same key used across this archive**
+
+---
+
+## If Verification Fails
+
+If verification fails, it may mean:
+
+* The file has been modified
+* The wrong public key is being used
+* The `.sig` file does not match the document
+
+In this case, do not treat the document as a verified copy.
+
+---
+
+## Notes
+
+* Verification is not required to read or use this archive
+* It is provided for those who wish to independently confirm authenticity
+* The system is decentralised — no central authority is required to validate the work
+
+---
+
+## Final Note
+
+This archive is designed to be:
+
+* openly accessible
+* freely shared
+* independently verifiable
+
+Verification exists as a tool for trust — not a barrier to entry.
+
+Public Key Fingerprint:
+42EC 4E2B 2347 8A71 4C98 4680 FBEA 6A65 658A 56EF
