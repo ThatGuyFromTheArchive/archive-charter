@@ -1,0 +1,152 @@
+Charter for the Enlightening — Notes on Structure
+
+This document describes the organizational logic and structural design of the repository.
+
+It is intended to clarify how and why the archive is arranged as it is.
+
+---
+
+## Structural Overview
+
+The repository is divided into three primary layers:
+
+1. Charter Documents
+2. Transcripts (Conversation-Based Archive)
+3. Supporting and Interpretive Materials
+
+This separation is intentional and reflects the underlying philosophy of the Charter.
+
+---
+
+## 1. Charter Documents
+
+Location: /Charter_Documents
+
+This section contains the core principles and interpretive framework of the Charter for the Enlightening.
+
+These documents are treated as foundational texts and include:
+- Beginner Guide
+- Canonical Text
+- Guidepost
+- FAQ
+
+They represent the primary articulation of the Charter’s principles.
+
+---
+
+## 2. Transcripts (Conversation-Based Archive)
+
+Location: /Transcripts
+
+The transcript archive is organized by conversation number.
+
+Each conversation is stored in its own folder and contains:
+- The full transcript
+- A summary of the conversation
+- Associated cryptographic signatures
+
+Example structure:
+
+/Transcripts
+  /Conversation_01
+    CFE_Conversation_01_Transcript.txt
+    CFE_Conversation_01_Summary.txt
+    CFE_Conversation_01_Transcript.txt.sig
+    CFE_Conversation_01_Summary.txt.sig
+
+  /Conversation_02
+    ...
+
+This structure ensures that each conversation remains a self-contained unit of record.
+
+---
+
+## 3. Summaries and Their Role
+
+Summaries are stored alongside their corresponding transcripts within each conversation folder.
+
+They serve as:
+- A navigational aid
+- A high-level interpretation of the conversation
+- A way to quickly understand context without reading the full transcript
+
+Summaries are not a replacement for the transcripts.
+
+The transcript remains the primary source of record.
+
+---
+
+## 4. Supporting and Interpretive Materials
+
+Location: /Summaries_Index and /Meta
+
+These sections contain documents that support navigation, understanding, and structure:
+
+- Summaries_Index: Provides cross-conversation navigation and aggregated views of summaries
+- Meta: Contains structural and administrative notes about the archive
+
+These materials assist in orientation but do not replace the primary sources.
+
+---
+
+## Design Principles
+
+The structure of this repository is guided by the following principles:
+
+- Separation of content types to preserve clarity
+- Co-location of related materials for contextual integrity
+- Preservation of original dialogue as primary material
+- Transparency in both content and process
+- Verifiability through cryptographic signatures
+- Modularity to allow independent examination of components
+
+---
+
+## Separation of Transcripts and Charter Documents
+
+Transcripts are separated from the Charter Documents to ensure:
+
+- Preservation of original context
+- Protection against unintended reinterpretation
+- Clear distinction between principles and their development process
+
+This separation allows the Charter to remain readable while maintaining a complete historical record.
+
+---
+
+## Cryptographic Signing
+
+All significant documents are cryptographically signed to ensure:
+
+- Integrity of content
+- Verification of authenticity
+- Protection against undetected modification
+
+Verification details are provided in the CFE_Verification_Guide.txt file.
+
+---
+
+## Evolution of the Archive
+
+This structure is not final.
+
+It is expected to evolve over time as the Charter develops and additional material is added.
+
+Future releases may include:
+- New conversations and transcripts
+- Updated documents
+- Structural refinements
+
+Changes will be documented and versioned.
+
+---
+
+## Closing Note
+
+This repository is designed to be:
+- Read non-linearly
+- Examined critically
+- Used as a reference
+- Expanded over time
+
+Its structure reflects its intent: to preserve both ideas and the process through which they are formed.

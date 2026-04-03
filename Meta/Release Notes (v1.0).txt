@@ -1,0 +1,93 @@
+Charter for the Enlightening — Release Notes (v1.0)
+
+Release Date: [Insert Date]
+
+This document describes the initial public release of the Charter for the Enlightening archive.
+
+---
+
+## Overview
+
+This release represents the first complete, versioned snapshot of the Charter for the Enlightening.
+
+It includes:
+- Foundational Charter texts
+- Supporting interpretive documents
+- A complete set of recorded dialogues (transcripts)
+- A verification framework for authenticity and integrity
+
+---
+
+## Contents of This Release
+
+Charter Documents:
+- CFE_Beginners_Guide.txt
+- CFE_Canonical_Text.txt
+- CFE_Guidepost.txt
+- CFE_FAQ.txt
+
+Process Record:
+- Full set of Conversation Transcripts
+- Associated summaries for each conversation
+
+Supporting Documents:
+- CFE_Verification_Guide.txt
+- CFE_Formation_Archive.txt
+- README.txt
+
+Cryptographic Materials:
+- PUBLIC_KEY.asc
+- Digital signature files (.sig) associated with all signed documents
+
+---
+
+## Purpose of This Release
+
+This release is intended to provide:
+
+- A stable reference point for the Charter
+- A transparent record of its development
+- A verifiable archive of its contents and structure
+
+The inclusion of transcripts ensures that the Charter is not only presented as a set of conclusions, but as a process that can be examined in full.
+
+---
+
+## Design Principles Reflected in This Release
+
+- Process over conclusion
+- Transparency through complete records
+- Verifiability through cryptographic signatures
+- Openness to critique, revision, and interpretation
+- Non-finality: this is an evolving archive, not a completed system
+
+---
+
+## Known Limitations
+
+- This release is not final and should not be treated as complete
+- Interpretation may vary depending on the reader and context
+- Future releases may expand, refine, or reorganise content
+- Some elements remain intentionally unresolved to preserve openness and adaptability
+
+---
+
+## Verification
+
+All relevant documents in this release are cryptographically signed.
+
+To verify authenticity and integrity:
+- Refer to CFE_Verification_Guide.txt
+- Use the included public key (PUBLIC_KEY.asc)
+
+---
+
+## Closing Note
+
+This release marks a starting point rather than an endpoint.
+
+The archive is intended to remain open, adaptable, and subject to ongoing scrutiny.
+
+It may be used, questioned, modified, or set aside.
+
+The process continues either way.
